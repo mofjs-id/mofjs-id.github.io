@@ -112,13 +112,28 @@ label {
     width: 41.66666667%;
     height: 100%;	
     padding: 20px;
-	background: url(../images/event-banner.jpg);
+	background: url(../images/event-banner2.jpg);
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
+    display: block;
+    background-size: cover;
+  }
+  
+  .event-banner-wrapper:after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    box-shadow: inset 0px 0px 150px black;
+  }
+  
+  /* removing shadow on hover
+  for demonstration purposes */
+  .event-banner-wrapper:hover:after {
+    box-shadow: none;
+  }
 
 .logo h1 {
     font-family: 'Nixie One', sans-serif;
