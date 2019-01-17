@@ -679,3 +679,15 @@ iframe {
     }
   }
 } 
+
+.card-active {
+    background-color: #eaf7fb !important;
+}
+
+.card-past {
+    background-color: #eaf7fb !important;
+}
+
+.card-upcoming {
+    background-color: #eaf7fb !important;
+}
