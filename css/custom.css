@@ -139,18 +139,23 @@ label {
     font-family: 'Nixie One', sans-serif;
     position: absolute;
     color: #ffffff;
-    font-size: 28px;
-    font-weight: 300;
+    font-size: 3vw;
+    font-weight: 900;
     margin: 0;
     top: 20px;
     left: 20px;
+    text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 .event-banner-wrapper h2 {
     position: absolute;
 	font-family: 'Nixie One', sans-serif;
-	font-size: 4vw;
-    font-weight: 900;
+	font-size: 3vw;
+    font-weight: 400;
 	line-height: 4.5vw;
 	color: #fff;
     margin: 0;
@@ -552,7 +557,7 @@ iframe {
 }
 
 .event-tab .nav-tabs > li {
-    width: 50%;
+    width: 25%;
     text-align: center;
 }
 
